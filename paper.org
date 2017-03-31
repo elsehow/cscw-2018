@@ -6,51 +6,164 @@
 #+LATEX_HEADER: \setcopyright{rightsretained}
 #+LATEX_HEADER: \acmDOI{10.475/123_4}
 #+LATEX_HEADER: \acmISBN{123-4567-24-567/08/06}
-#+LATEX_HEADER: \acmConference[LIMITS '17]{ACM Limits Workshop}{June 2017}{Santa Barbara, California USA} 
-#+LATEX_HEADER: \acmYear{2017}
-#+LATEX_HEADER: \copyrightyear{2017}
+#+LATEX_HEADER: \acmConference[CSCW '18]{Computer Supported Cooper}{Month, 2018}{City}
+#+LATEX_HEADER: \acmYear{2018}
+#+LATEX_HEADER: \copyrightyear{2018}
 #+LATEX_HEADER: \acmPrice{15.00}
-#+TITLE: Better Not to Know
+#+TITLE: Highlighting Social, Situated VR Play
 #+Author: 
-#+SUBTITLE: The SHA1 Collision & the Limits of Polemic Computation
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style1.css" />
 :end:
 
-#+BEGIN_EXPORT latex
-\epigraph{I insist on the fact that there is generally no growth but only a luxurious squandering of energy in every form!}{Georges Batailles, \textit{The Accursed Share}}
-#+END_EXPORT
+* Virtual Reality and Presence 
 
-* Introudction
+Most virtual reality (VR) systems (e.g., HTC Vive, Oculus, Google Cardboard, and Samsung Gear VR) attempt to achieve a sense of presence in a virtual environment, often while diminishing awareness of social and physical surroundings. Much research is on supporting virtual presence (e.g., [2,5,16,21]) or exploring interactions afforded by virtual presence (e.g., [11,13,23]). Our work critically reconsiders virtual presence to expand VR interaction possibilities.
 
-Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
+We explore interaction possibilities afforded by intentionally diminished virtual presence. We developed playful tactics for misusing the HTC Vive VR system: collocated others “interrupting” a VR user through social interaction or physical contact, a VR user interacting with physical objects, or distributing the Vive’s three-piece hardware set across three people using VR in tandem. These tactics supported alternative interactions and experiences with VR that felt more situated in the physical environment and more socially connected with collocated others.
 
-Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
+We feel this work is particularly relevant to the DIS community, which values embodied interaction and critical reflection on interaction paradigms (e.g., [15]). Our tactics and interactions point to opportunities for designers to reconsider the primacy of virtual presence in VR by strategically intermixing physical presence, reframing the “interruptions” of the real world as a resource for design for virtual reality.
 
-* Background
+* Virtual Presence
 
-Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
+Virtual reality has been defined by its ability to support virtual presence, defined as the perceived sense of being in a virtual environment [5,10,21]. Cummings and Bailenson (2015) note the widespread assumption that achieving virtual presence should be a goal of VR, such that “the virtual setting will dominate over physical reality in determining user responses” (p. 3) [5]. This ‘domination’ seems to be sought in part by designing VR experiences to occur in an empty room free of furniture in which the user does not interact with collocated others. This has led to concerns about social isolation (e.g., [14,22]); perhaps collocated social interaction might reduce social isolation in VR.
 
-** SHA1 collisions
-Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.
+Reconsidering the primacy of virtual presence may lead to new design opportunities for embodied interaction. Although VR experiences emphasizing virtual presence can support compelling embodied interactions (e.g., [6,24,25]), with diminished virtual presence we see the potential to explore embodied interactions with VR that foreground the entanglement of our bodies with our physical surroundings and our socioculturally situated interactions with others. The experience and meaning of embodiment emerges from physical and sociocultural context or, more concretely, the embodied experience of using VR alone in an empty room is different than that of using VR while interacting with furniture and collocated others. Exploring mixing virtual presence with awareness of social and physical surroundings may lead to new design opportunities for embodied interaction.
+
+For example, some VR experiences explore collocated social and physical interaction. One game involves completing tasks in VR with the help of a collocated other referencing a hardcopy manual, making communication across VR-induced sensory barriers essential to gameplay [9]. Another invites a VR user to experience an environment currently being modified by collocated others [8]. Projection-based VR can accommodate multiple users simultaneously (e.g., [23]). Shaw’s VR experiences are navigated physically using a stationery bicycle [18], a wooden mannequin [19], or the user’s mouth [20]. One game involves caring for a VR/physical plush kitten [26]. These experiences leverage situated social and physical awareness as resources for design. As for hardware, Artefact has proposed a pair of concept design headsets, Shadow and Light, respectively emphasizing support social isolation or collocated social interaction [1]. This pictorial continues expanding social and physical embodied interaction opportunities in VR.
+
+* Exploring Playful Misuse
+
+If we embrace mixed partial presences in virtual and physical reality, particularly the presence of collocated others, what sorts of interactions are foregrounded?
+We first began to question virtual presence based on our own experiences after our lab purchased HTC Vive. Amidst the excitement of colleagues about the “immersivity” and “realism” of the system, one author was nonplussed and seemed to experience virtual presence significantly less than others. Instead, while wearing the headset she was still keenly aware of others in the room as well as ambient temperature and odors. Rather than framing lack of presence as a flaw, it motivated us to explore breakdowns of presence. We were inspired by prior work in HCI and infrastructure studies suggesting breakdowns can be opportunities to surface issues and values, explore new ones through reuse and repurposing, and build new types of relationships among humans and materials [3,12,17].
+
+We explored breakdowns of virtual presence through firsthand experiences, given the importance of experiencing VR firsthand to better understand its strengths and weaknesses [7]. We creatively (mis)used HTC Vive together as a group in order to create and explore different types of breakdowns.
+These sessions were unstructured, driven by various interests, including finding a more social VR, more interaction with the physical environment, altering our spatial perception in VR, and exploring feelings of dis/embodiment in VR. We focus on playful interactions because we feel that framing our activity as “play” encourages broad exploration of potentially unusual experiences. These sessions were recorded with video and screen capture. We transcribed audio, reviewed footage, and reflected as a group to uncover emergent themes. We focus on presence because it is key to distinguishing many of our explorations from common approaches to VR. Due to the early exploratory nature of these sessions, we chose VR apps that were readily available for Vive. Due to our focus on collocated social interaction, we did not choose VR apps that enable mediated communication with networked others. Future work could include these areas.
+
+We present our playful misuse tactics in the form of a videogame walkthrough, drawing on Consalvo's (2003) work on Zelda 64 fans which discussed walkthroughs as a medium of fan-generated meaning-making around virtual experiences [4]. The typography and more casual tone of the following pages are in homage to this tradition. We are design researchers, but not specifically VR designers, so this approach of speaking as users of VR to a broader design audience seemed appropriate. We offer this walkthrough as a guide for designers to follow along and try firsthand, trying our misuse tactics and generating their own, for the strategic (re-)inclusion of collocated social and physical presence in virtual reality.
+Finally, after the walkthrough, we discuss implications for design.
+
+* Multiplayer Mode
+
+HTC Vive is designed for a single user wearing the headset and operating the two handheld controllers (middle). Physical movement, including walking, results in corresponding movement in VR. This gives a strong sense of virtual presence. As a misuse tactic to diminish virtual presence, we suggest “Multiplayer Mode” in which three people use VR in tandem to act as one VR user (top): We keep the headset’s view open on a large screen for all to see. We send the sound to speakers, not headphones, for all to hear. One person wears the headset (“headset-wearer”), a second person takes the left handheld controller, and a third person takes the right handheld controller (“hand-controllers”).
+
+Thus one person becomes the “eyes” and the other two people become the “hands” of what HTC Vive considers a single VR user.
+Having three people attempt to act as one VR user can make everything more challenging and requires tight coordination. However, like riding a tandem bicycle, we feel that the added coordination challenges can lead to rewarding embodied collaboration and social bonding. Hand-controllers should care for and support the headset-wearer by helping adjust the headset (bottom), preventing the headset-wearer from tripping over obstacles, and keeping them calm during intense virtual scenes. We observed these caring practices among many sessions of using VR with colleagues, suggesting that “interruptions” from collocated others are already emerging as bene cial interactions.
+
+# VR designs can support embodied collaboration with collocated others by requiring tight coordination. “Multiplayer Mode” is one tactic we found for supporting this coordination.
+# Multiplayer Mode suggests unique design opportunities for even mundane experiences in VR, as we describe in the following pages. 
+# Multiplayer Mode also helps us re ect on the spatial/sensory correspondences, barriers, and transformations we perform when we experience VR.
+# In general, VR experiences designed for multiple users could build upon and encourage existing social practices of caring for one another’s comfort, physical and psychological. 
+# For example, tips for adjusting the headset could be displayed to non-headset-wearers. 
+
+** Picking up objects in multiplayer mode
+
+The headset-wearer can see the ball in front of him. His view is displayed to others on the TV screen. The hand-controllers can see the ball on screen and reach toward it, controlling the virtual hands in the app Rec Room. Due to the physical screen’s position relative to the virtual ball’s position, hand-controllers must physically turn away from the screen to reach for the ball, awkwardly craning their neck to look back over their shoulder. A physical table just out of view in front prevented approaching the ball from the other side.
+
+To help pick up the ball, the headset-wearer is physically pointing to the ball’s location. The headset- wearer cannot see his own body or hands, but is relying on proprioception to point toward what he virtually sees in front of him. This physical pointing helps the hand-controllers reach in the correct direction.
+Multiplayer Mode severely reduced hand-eye coordination but also gave long “arm” reach during games such as paddleball.
+
+Simple tasks that would be trivial with normal VR hand-eye coordination become coordination challenges in Multiplayer Mode, sharply revealing physical-virtual correspondences and perceptual barriers and affordances. Things do not get easier with misuse, but they do get more interesting.
+
+** Racing in a loop / physical rotation
+
+Whereas during the previous interaction the virtual space’s correspondence with the physical space remained  xed, during this game that correspondence is continually shifting while moving through a virtual racecourse loop of clouds in the app Grapply.
+To navigate the racecourse, the hand-controllers shoot laser beams to grab clouds to pull forward. To help aim, the headset-wearer must face toward the oncoming clouds to keep them in view on screen for the hand-controllers. The headset-wearer physically rotates full circle throughout the course. Hand- controllers must dash around him and continually re- adjust the perspective from which they aim.
+We found this interaction satisfyingly challenging, and felt each person was essential to the interaction. The headset-wearer developed skills in holding steady to maintain a stable perspective for the hand- controllers, whereas the hand-controllers developed skills at physically moving rapidly around the headset-wearer and alternating their cloud grabs to avoid virtual free fall.
+
+Spatial tasks such as aiming at a target become much more challenging in Multiplayer Mode. If there is room for practice and growth, such as task repetition, this challenge can be an enjoyable game dynamic. The balance of control across all users is an important consideration for multi-user interaction.
+
+** Menu options: Pressing a button
+
+The seemingly simple task of pressing a button proved saying, “A very challenging in Multiplayer Mode, pushing our
+spatial coordination skills to the limit in Audioshield.
+
+In strict Multiplayer Mode (top), the headset-wearer must look at the button and hold steady to hold it in view on the screen, one hand-controller aims the laser pointer at the button (requiring him to face away from the screen), and the other hand-controller looks at the screen and verbally helps adjust the aim.
+As a fallback (middle), taking off the headset and aiming it as a “camera” view into VR makes it easier to hold a steady view and coordinate with others, perhaps because it is less immersive.
+
+As an alternative fallback (bottom), one of the hand- controllers can walk over to the computer and use the mouse to click the button. This is expedient when the headset-wearer is completely distracted and just wants to look at the scenery instead of helping push the button. This avoids needing to take the headset off and put it on again.
+
+# Designing fallbacks onto familiar interaction modes, such as mouse point and click, can help when novel interactions with VR prove too challenging.
+# Looking in the correct direction and holding a steady view is surprisingly dif cult for the headset-wearer.
+
+** Open-ended environment modification
+
+Modifying the environment was enjoyable for all in the app Found. Hand-controllers together operate a single slingshot (top) to plant  owers around the headset-wearer (middle left), while the headset-wearer has no tasks and just enjoys the dynamic scenery. Sometimes the headset-wearer would physically point to the virtual slingshot, perhaps suggesting a desire to partake in modifying the environment.
+
+** Just watching is less engaging
+
+A less positive experience in The Rose and I yields insights on sustaining engagement. The headset- wearer watches the story slowly unfold, while the hand-controllers have no interactivity (bottom, middle right). The hand-controllers quickly grew bored. The headset-wearer was blissfully unaware of their boredom, so after a few minutes they asked to change games.
+
+# Users outside VR could modify a virtual environment inhabited by the headset-wearer. 
+# Just looking at the virtual environment seemed suf ciently engaging for the headset-wearer, although participating in modifying the environment could also be desirable.
+# Some interactivity for the hand-controllers is needed. Just passively watching VR was not suf ciently engaging for such a slow paced experience.
+
+* Importing into VR
+
+We “imported” sensory stimulus and physical objects into VR, with one person using both headset and handhelds as the “VR user”.
+
+** Scary game - enhancing fright
+
+To make a horror-themed app, A Chair in a Room: Greenwater, more intense, friends imported sensory stimulus, sneaking up from behind and startling the VR user by touching his shoulders. The psychophysiological cringe effect is pronounced (bottom).
+
+This “sneak attack” was conducted with care and consent. The two friends asked for permission to startle the VR user and even warned him just before the sudden move to touch his shoulders. Even with so much communication, the psychological effect seemed intense. The two friends made sure the VR user was OK before having a good laugh.
+
+This technique could easily be made more intense by choosing a particularly frightening moment for the surprise, or by not warning the VR user beforehand.
+
+** Scary game - reducing fright
+
+To make the same horror-themed game less intense, one friend played the role of “Oracle”, giving the VR user a sense of premonition by importing future knowledge (not pictured). The Oracle watched an online fan-made walkthrough of the game, scanning a few seconds or minutes ahead to anticipate upcoming events. The Oracle gave hints, warnings, or suggestions to the VR user. In addition to reducing the surprise of frightening events and helping with dif cult puzzles, the Oracle also calmed the atmosphere by acting as a companion to the VR user as they journeyed through a horror-themed environment.
+
+Collocated others can increase intensity for the VR user by “importing” additional sensory stimuli and surprises. Interactions should always be conducted with care and consent.
+The Oracle can act as a caring guide and calming companion for the VR user, reducing intensity or dif culty.
+
+** Importing a physical chair into VR
+
+We imported a physical chair by tracing it in Tiltbrush, an app that allows users to make 3-dimensional drawings. The location of the physical chair corresponds with the location of the virtual chair, so it is easy to sit on while wearing the VR headset. The experience was disconcerting or uncanny, sitting in the chair, looking down to where one’s body should be, and seeing through to the chair.
+
+** Self-portrait
+One VR user, who was usually behind the camera during our sessions, imported a representation of his body into VR. He traced his face, taking the headset off partway to get the contour of his nose and eyes. Then, with headset back on, he sketched a more abstract representation of the rest of his body.
+
+** Guessing game
+
+The headset-wearer watches while another person with both hand-controllers tries to draw an object for the headset-weaer to guess, in this case a postbox.
+
+# “Importing” physical items into VR provides new opportunities for interaction. Exploring mixed feelings of dis/embodiment can be leveraged to create engagement and encourage reection in VR designs.
+
+* Sensory barriers
+Embracing sensory barriers imposed by VR can result in game-like challenges.
+
+** Hide and seek
+
+Two “hiders” placed the handheld controllers somewhere in the room. The “seeker” left the room temporarily and, upon return, donned the headset without seeing where in the physical room the controllers were hidden. The seeker then  nds the handheld controllers by exploring in VR, negotiating the constraints of the physical and virtual spaces.
+For this game, we used Google Earth VR, a world map. We found the game most challenging in city settings. When the handhelds are are placed on the physical ground, they disappear inside virtual buildings for the headset-wearer. This way, the seeker is required to crawl through the physical space, peering inside skyscrapers to recover the handheld controllers.
+
+While our other experiments relied on the hand- controllers’ partial knowledge of the virtual space, this game relied on the headset-wearer’s partial knowledge of the physical space. 
+Embracing these sensory barriers can result in game-like challenges and collaborative opportunites. 
+For example, handheld controllers can be abstract physical/virtual markers that collocated others arrange as a headset-wearer experiences the virtual effects.
 
 
-Section 5 will return to TLS vulnerability in more detail.
+* Discussion
 
-** SHA1 collisions in theory
+Our primary strategy in generating new interaction possibilities for VR was through playful misuse of an existing VR system. A particularly generative move was subverting the assumption that the user can be modeled as a pair of eyes and hands. Instead, we treated these eyes and hands as "modular" units that could be reconfigured to create interactions that are differently socially or differently embodied.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.
+This notion of /modularity/ surfaces possibilities for multi-user collocated collaboration in which each user has different capabilities. VR systems often assume a single user in an empty room, but this is not what commonly occurs in practice. VR systems are often shared due to their financial and space requirements, with furniture and collocated others often present during use.
 
-Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
+A misuse tactic, our Multiplayer Mode sharply reveals challenges and affordances with modularity, showing physical/virtual correspondences and sensory barriers. It makes existing VR designs less "usable," but more fun by requiring collocated collaboration. Beyond fun, as VR applications expand in scope, multi-user modularity could support other collaborative activities. Although multi-user VR could be achieved by giving three people headsets and hand-controllers, in the same virtual environment but different physical environments, our work suggests this may not be necessary or desirable for producing effective collaborative experiences in VR.
 
+We share design recommendations for modular multi-user VR interactions:
 
-* Ecological Risks, Polemic Rewards
+** Distribute, balance, and share controls
+Each user can have a different modular capability. Our walkthrough shows many simple ways of interacting with the virtual environment sans headset fostered engagement, such as modifying the virtual environment or controlling the view. Future collaborative VR designs could support games, creativity tools, or complex tasks requiring multiple different forms of control.
 
-Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.
+** Permeate the physical and virtual
+Bringing physical objects into the VR experience, such as placing a chair where a virtual rock might appear, or “importing” physical objects into VR, such as tracing a physically present chair in VR, add sensory realism. Collocated others can increase the intensity of VR experiences via extra sensory stimulus such as startling. Designs could encourage these physical / virtual interactions.
+
+** Leverage dis/embodiment
+In contemporary VR systems, users cannot see their bodies in virtual space. Juxtaposing physical embodiment with virtual disembodiment can support designing for uncanny experiences (e.g., sitting in a physical chair and virtually staring through oneself). Permeating the virtual with representations of the body (e.g., tracing one’s face in VR) is an open design area.
 
 * Conclusion
 
-Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
-cite:Wang2005
+Through fostering breakdowns of virtual presence with HTC Vive VR, we explored interactions that foreground social and physical surroundings. We share these experiences and implications for design with the hope that VR designs will reconsider the primacy of virtual presence and see physical and social surroundings not as interruptions but as resources for design.
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{refs}

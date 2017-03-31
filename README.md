@@ -1,6 +1,7 @@
-# empty acm paper
+# cscw-2018
 
-project template for an ACM article, generated from an org mode file
+cscw 2018 submission,
+generated from an org mode file
 
 ## setup
 
